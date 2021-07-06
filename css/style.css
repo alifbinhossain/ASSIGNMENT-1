@@ -1,0 +1,229 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.4;
+  background-color: #fff;
+}
+/* TYPOGRAPHY */
+.heading-primary {
+  font-size: 60px;
+  color: #fba24f;
+}
+.heading-secondary {
+  color: #707070;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+.text-header {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+.text-split {
+  color: #ff1e1e;
+}
+
+.text-about {
+  display: inline-block;
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+.recipe-description {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  line-height: 1.8;
+}
+.heading-recipe {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  text-transform: capitalize;
+}
+.text-recipe {
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+.heading-follower {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.text-follower {
+  font-size: 14px;
+  color: #f3f3f3;
+}
+.heading-footer {
+  color: #fba24f;
+  font-size: 30px;
+}
+.text-footer {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+
+/* BUTTON */
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  width: fit-content;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  color: #fff;
+  border-radius: 40px;
+  background-image: linear-gradient(to right, #fba24f, #ff1e1e);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* HEADER */
+.header {
+  padding: 10px 80px 20px;
+  display: block;
+  margin-bottom: 30px;
+}
+.header-logo {
+  height: 100px;
+}
+.navigation {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.navigation-box-1 {
+  margin-right: auto;
+}
+
+.navigation-search {
+  display: inline-block;
+  border: none;
+  width: 70px;
+  padding: 12px 25px;
+  background-color: #fba24f;
+  border-radius: 100px;
+  color: #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.navigation-search:focus {
+  outline: none;
+}
+.navigation-search::placeholder {
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+}
+.navigation-item {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: 700;
+  color: #fba24f;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.header-content--item {
+  display: inline-block;
+  width: 50%;
+}
+.header-content-image {
+  width: 95%;
+}
+
+/* ABOUT */
+.section-about {
+  background-image: url(../img/bg-4.jpg);
+  background-size: cover;
+  display: flex;
+}
+.about {
+  display: inline-block;
+  height: 400px;
+  width: 50%;
+  margin: 80px 60px 0;
+}
+
+.about-image {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* RECIPE */
+.section-recipe {
+  text-align: center;
+  padding: 40px 60px;
+  margin-bottom: 20px;
+}
+
+.recipe {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.recipe-card {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 20px 20px 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.recipe-card:not(:last-child) {
+  margin-right: 60px;
+}
+
+.recipe-image {
+  width: 100%;
+}
+
+/* FOLLOWER*/
+.follower {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 165, 0, 0.6),
+      rgba(255, 30, 30, 0.6)
+    ),
+    url(../img/food-7.png);
+  background-position: cover;
+
+  width: 92%;
+  padding: 20px 0;
+  border-radius: 8px;
+  margin-bottom: 60px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.social-media {
+  text-align: center;
+  margin-right: 10px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  background-color: #0b0d17;
+  padding: 30px;
+}
